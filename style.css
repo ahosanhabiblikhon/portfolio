@@ -921,6 +921,15 @@ body:has(button:hover) #cursor { width: 16px; height: 16px; }
 .gallery-item:hover { transform: scale(1.02); box-shadow: var(--shadow-lg); }
 .gallery-item.hidden { display: none; }
 
+/* Gallery Image Styling */
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
 /* Placeholder Styling */
 .gallery-placeholder {
   width: 100%; height: 100%;
